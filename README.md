@@ -1,8 +1,14 @@
 ## Step 1:
-Copy Makefile to root directory
+Copy Makefile and YOLOv8-Jetson.py  to root directory
 
 Run "cd ~" then
 "make install"
+
+## Step 2:
+
+Run "cd Deepstream-Yolo" then run
+"git checkout 68f762d5bdeae7ac3458529bfe6fed72714336ca"
+then run "cp ~/DeepStream-Yolo/utils/gen_wts_yoloV8.py ~/ultralytics"
 
 ## Step 2:
 
