@@ -26,7 +26,7 @@ install:
 	# Clone DeepStream-Yolo, copy gen_wts_yoloV8.py to ultralytics
 
 	@git clone https://github.com/marcoslucianops/DeepStream-Yolo
-	@cp ~/DeepStream-Yolo/utils/gen_wts_yoloV8.py ~/ultralytics
+	
 
 	# Step 2
 	# cd ultralytics
