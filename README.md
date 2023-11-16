@@ -1,8 +1,12 @@
 ## Step 1:
-sudo pip3 install -U jetson-stats
+install jtop by running this command
+"sudo pip3 install -U jetson-stats"
+Run "jtop"
+Go to page 6. Type 'S' then 'E' then select 'manual' in the profiles section.
 
 ## Step 2:
-Follow up with this url to build opencv with CUDA https://www.youtube.com/watch?v=art0-99fFa8
+Go to 'Info' page in jtop, check if opencv with CUDA is available. If not, follow the link below:
+https://www.youtube.com/watch?v=art0-99fFa8
 
 ## Step 3:
 Copy Makefile and YOLOv8-Jetson.py  to root directory
