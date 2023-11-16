@@ -80,3 +80,7 @@ Testing
 
 	deepstream-app -c deepstream_app_config.txt
 
+## NOTE:
+Nvidia Guid Link to work with configuration:
+	https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_ref_app_deepstream.html
+
