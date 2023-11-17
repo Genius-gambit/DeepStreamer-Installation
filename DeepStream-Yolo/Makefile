@@ -1,5 +1,5 @@
 run:
-	@CUDA_VER=11.4 make -C nvdsinfer_custom_impl_Yolo
+	@CUDA_VER=11.4 OPENCV=1 make -C nvdsinfer_custom_impl_Yolo
 
 # Execute "make rgb"
 
