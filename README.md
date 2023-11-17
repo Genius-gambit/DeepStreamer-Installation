@@ -50,7 +50,7 @@ Edit the config_infer_primary_yoloV8.txt
 		custom-network-config=yolov8x.cfg
 		model-file=yolov8x.wts
 		...
-		num-detected-classes=80
+		num-detected-classes=7
 		...
      }
 
@@ -66,6 +66,18 @@ Edit the deepstream_app_config.txt
 
 ## Step 10:
 
+Edit the labels.txt in deepstream folder and write down labels below:
+
+	person
+ 	car
+  	motorbike
+   	aeroplane
+    bus
+    truck
+    tvmonitor
+
+## Step 11:
+
 Change the video source in deepstream_app_config.txt file.
 
 	{
@@ -74,7 +86,7 @@ Change the video source in deepstream_app_config.txt file.
 		uri=file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_1080p_h264.mp4
 	}
 
-## Step 11:
+## Step 12:
 
 Testing
 
