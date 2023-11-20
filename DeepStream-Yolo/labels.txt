@@ -1,0 +1,7 @@
+person
+motorbike
+car
+aeroplane
+bus
+truck
+tvmonitor
