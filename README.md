@@ -26,7 +26,7 @@ Run "cd ~/ultralytics"
 Edit the gen_wts_yoloV8.py
 Remove cd ~/ultralytics from line 48, if it doesn't exist move forward
 Remove ".yolo" from line 5 and line 6
-Edit line 287 and 288 to add yolov8x
+Edit line 287 and 288 to add yolov8m
 
 ## Step 6:
 
@@ -42,51 +42,17 @@ Copy DeepStream-Yolo's Makefile to DeepStream-Yolo folder, then run
 
 ## Step 8:
 
-Edit the config_infer_primary_yoloV8.txt
-    
-    { 
-		[property]
-		...
-		custom-network-config=yolov8x.cfg
-		model-file=yolov8x.wts
-		...
-		num-detected-classes=7
-		...
-     }
+Copy config_infer_primary_yoloV8.txt to DeepStream-Yolo/
 
 ## Step 9:
 
-Edit the deepstream_app_config.txt
-
-	{ 
-		[primary-gie]
-		...
-		config-file=config_infer_primary_yoloV8.txt
-     }
+Copy deepstream_app_config.txt to DeepStream-Yolo/
 
 ## Step 10:
 
-Edit the labels.txt in deepstream folder and write down labels below:
-
-	person
- 	car
-  	motorbike
-   	aeroplane
-    bus
-    truck
-    tvmonitor
+Copy labels.txt to DeepStream-Yolo/
 
 ## Step 11:
-
-Change the video source in deepstream_app_config.txt file.
-
-	{
-		[source0]
-		...
-		uri=file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_1080p_h264.mp4
-	}
-
-## Step 12:
 
 Testing
 
