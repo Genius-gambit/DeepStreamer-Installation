@@ -26,7 +26,7 @@ Run "cd ~/ultralytics"
 Edit the gen_wts_yoloV8.py
 Remove cd ~/ultralytics from line 48, if it doesn't exist move forward
 Remove ".yolo" from line 5 and line 6
-Edit line 287 and 288 to add yolov8m
+Edit line 287 and 288 to add yolov8s
 
 ## Step 6:
 
